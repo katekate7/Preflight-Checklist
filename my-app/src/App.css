@@ -1,0 +1,105 @@
+.App{
+    font-family: sans-serif;
+}
+
+.resultBox {
+    border: 2mm solid black;
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 10px;
+    margin-bottom: 10px; 
+}
+
+.form-container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.my-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task-box {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+.task-box p {
+  margin: 5px 0;
+}
+
+.task-box button {
+  margin-top: 10px;
+}
+
+.main-header {
+  background-color: #EF476F;
+  color: white;
+  height: 20vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-image {
+  margin-right: 20px;
+}
+
+.header-image img {
+  max-width: 100px; 
+  height: auto;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header-text h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.header-text h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
